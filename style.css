@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+
+  background: radial-gradient(circle at top left, #202731, #1c1c1c);
+  color: white;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  font-size: 8vmin;
+  color: #222;
+  background-color: #ffffff;
+}
+
+#reset {
+  padding: 1rem 2rem;
+  font-size: 1.25 rem;
+  background-color: #2d3142;
+  color: #f0f4f8;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+#reset:hover {
+  background-color: #1b1e2c;
+}
+
+#newBtn {
+  padding: 1rem 2rem;
+  font-size: 1.25 rem;
+  background-color: #7f85a2;
+  color: #f0f4f8;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+#newBtn:hover {
+  background-color: #1b1e2c;
+}
+
+#msg {
+  color: #dc8a10;
+  font-size: 6vmin;
+}
+.msgContainer {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+
+.O {
+  color: #3a86ff;
+  font-weight: bold;
+}
+
+.X {
+  color: #d62828;
+  font-weight: bold;
+}
